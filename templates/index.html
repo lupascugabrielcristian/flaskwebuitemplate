@@ -1,0 +1,11 @@
+<!doctype html>
+{% extends "layout.html" %}
+{% block content %}
+	<div class="red-text">Hello {{post.name}}</div>
+	<p>A: {{post.a}}</p>
+	<p>B: {{post.b}}</p>
+
+	<div>
+		<button onClick="goToSomePage()">Get numbers</button>
+	</div>
+{% endblock %}

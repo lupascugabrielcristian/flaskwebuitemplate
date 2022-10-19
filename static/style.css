@@ -1,0 +1,18 @@
+.red-text {
+	color: red;
+}
+
+.buttons {
+	display: flex;
+	flex-direction: row;
+	padding: 20px;
+	margin-top: 20px;
+	gap: 10px;
+}
+
+#title-layout {
+	margin-bottom: 20px;
+	background: #DCEAEF;
+	padding: 10px;
+}
+
