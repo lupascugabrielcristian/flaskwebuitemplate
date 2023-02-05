@@ -6,7 +6,7 @@ from flaskwebgui import FlaskUI # import FlaskUI
 import random
 
 app = Flask(__name__)
-ui = FlaskUI(app, width=500, height=500, port=5400) # add app and parameters
+ui = FlaskUI(app=app, server="flask", width=500, height=500, port=5400) # add app and parameters
 
 
 
